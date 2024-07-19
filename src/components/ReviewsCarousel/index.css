@@ -1,0 +1,64 @@
+/* Write your code here */
+* {
+  margin: 0;
+}
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.card-container {
+  max-width: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: 600;
+  padding: 15px 5px;
+}
+.profile-image {
+  height: 110px;
+  width: 90px;
+  padding: 15px 5px;
+}
+.arrow-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 550px;
+}
+.user-name {
+  color: #fff;
+  font-family: 'roboto';
+  text-align: center;
+  padding: 15px 5px;
+  font-weight: 500;
+  font-size: 13px;
+}
+.company-name {
+  font-family: 'roboto';
+  padding: 15px 5px;
+  font-size: 12px;
+}
+.description {
+  padding: 15px 5px;
+  text-align: center;
+  font-family: 'Roboto';
+  max-width: 650px;
+  color: #171f46;
+}
+.button {
+  outline: none;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
